@@ -297,6 +297,11 @@ section {
     flex-shrink: 0;
 }
 
+.logo img {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
 .logo-img {
     height: 45px;
     width: auto;
@@ -307,19 +312,6 @@ section {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.logo-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 42px;
-    height: 42px;
-    background: var(--accent);
-    color: var(--primary);
-    font-weight: 800;
-    font-size: 18px;
-    border-radius: var(--radius-sm);
 }
 
 .logo-words {
