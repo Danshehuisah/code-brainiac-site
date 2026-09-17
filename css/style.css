@@ -952,10 +952,18 @@ section {
 ============================================ */
 .testimonials {
     background: var(--white);
+    width: 100%
+}
+
+.testimonial .container {
+    width: 100%;
+    position: relative;
 }
 
 .testimonials-carousel {
-    position: relative;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -1038,6 +1046,7 @@ section {
 }
 
 .carousel-btn {
+    /* position: absolute; */
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -1087,12 +1096,18 @@ section {
    PROJECTS SECTION
 ============================================ */
 .projects {
-    background: var(--gray-50);
+    /* background: var(--gray-50); */
+    background: var(--primary-dark);
 }
 
-.projects .container {
-    background-color: #0a1628;
+.projects .section-label, .projects .section-subtitle, .projects h2 {
+    color: var(--accent-light);
 }
+
+.projects .section-title {
+    color: var(--white);
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
