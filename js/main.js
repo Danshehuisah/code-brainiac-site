@@ -209,7 +209,7 @@
         }
 
         function startAutoSlide() {
-            autoSlideInterval = setInterval(nextSlide, 5000);
+            autoSlideInterval = setInterval(nextSlide, 3500);
         }
 
         function resetAutoSlide() {
@@ -288,12 +288,12 @@
     // ============================================
     // CURRENT YEAR IN FOOTER
     // ============================================
-    function setCurrentYear() {
-        const yearElement = document.getElementById('year');
-        if (yearElement) {
-            yearElement.textContent = new Date().getFullYear();
-        }
-    }
+    // function setCurrentYear() {
+    //     const yearElement = document.getElementById('year');
+    //     if (yearElement) {
+    //         yearElement.textContent = new Date().getFullYear();
+    //     }
+    // }
 
     // ============================================
     // SEARCH BUTTON (Placeholder)

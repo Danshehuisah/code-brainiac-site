@@ -1038,7 +1038,7 @@ section {
 }
 
 .carousel-btn {
-    /* position: absolute; */
+    position: absolute;
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -1708,9 +1708,9 @@ section {
         font-size: 30px;
     }
 
-    .hero-mobile-mockup {
+    /* .hero-mobile-mockup {
         display: none;
-    }
+    } */
 }
 
 /* Small Mobile */
